@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #090914;
+  color: #f5f0ff;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.app {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #302442;
+}
+
+header h1 {
+  font-size: 34px;
+  letter-spacing: 4px;
+  color: #d8b4ff;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #a99bbd;
+  font-size: 14px;
+}
+
+.chat {
+  flex: 1;
+  padding: 25px 0;
+}
+
+.message {
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 18px;
+  line-height: 1.6;
+  max-width: 85%;
+}
+
+.assistant {
+  background: #21182f;
+  border: 1px solid #49345f;
+}
+
+.user {
+  background: #54347c;
+  margin-left: auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  background: #171321;
+  border: 1px solid #49345f;
+  border-radius: 18px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  background: #a66be0;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: bold;
+}
